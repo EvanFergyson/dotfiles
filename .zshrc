@@ -9,6 +9,7 @@ eval="$(/opt/homebrew/bin/brew shellenv)"
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+export PATH=$HOME/flutter/bin:$PATH
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -22,7 +23,6 @@ source "$ZINIT_HOME/zinit.zsh"
 
 # Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -73,7 +73,11 @@ alias ls='ls --color'
 alias nvim='nvim'
 alias c='clear'
 alias p='python3'
-
+alias n="nvim"
+alias uni="cd ~\OneDrive\ -\ Cardiff\ University"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+macchina
+
