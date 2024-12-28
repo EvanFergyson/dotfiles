@@ -74,7 +74,7 @@ alias nvim='nvim'
 alias c='clear'
 alias p='python3'
 alias n="nvim"
-alias uni="cd ~\OneDrive\ -\ Cardiff\ University"
+alias uni="cd ~/OneDrive\ -\ Cardiff\ University"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
