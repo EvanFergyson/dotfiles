@@ -1,0 +1,3 @@
+theme="asatine"
+
+show = ["Host", "Kernel", "OperatingSystem", "Distribution", "Packages", "Terminal", "Shell", "Uptime", "Processor", "Battery"]
