@@ -9,9 +9,6 @@
 # it gets replaced by the "replace" string.
 matches:
   # Simple text replacement
-  - trigger: ":espanso"
-    replace: "Hi there!"
-
   - trigger: ":ot"
     replace: "<span style='color:rgb(179, 198, 161)'>☑</span>"
 
@@ -28,7 +25,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%d/%m/%Y"
+          format: "%d-%m-%Y"
 
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
